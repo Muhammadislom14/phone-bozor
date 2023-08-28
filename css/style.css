@@ -1,0 +1,106 @@
+/* GLOBAL */
+:root {
+    --prussian-blue: #023047;
+    --selective-yellow: #ffb703;
+    --ut-orange: #fb8500;
+    --blue-green: #219ebc;
+    --sky-blue: #8ecae6;
+    --white: #fff;
+    --pantone-red: #e63946;
+    --hunter-green: #386641;
+    --cambridge-blue: #7209b7;
+    --persian-green: #00a896;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;;
+}
+/* CONTAINER  */
+.container {
+    margin: 0 70px;
+}
+
+/* NAVIGATION */
+.navigation {
+    background-color: var(--prussian-blue);
+}
+.brand {
+    display: inline-block;
+}
+.brand-title {
+    color: var(--white);
+    display: inline-block;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    padding: 25px 0;
+    transition: 0.4s;
+}
+a .brand-title:hover {
+    text-shadow: 0px 2px 7px var(--persian-green);
+    transition: 0.4s;
+}
+.navigation-list {
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+}
+.navigation-item a{
+    text-decoration: none;
+}
+.navigation-items {
+    color: var(--white);
+    display: inline-block;
+    height: 100%;
+    padding: 31.5px 15px;
+    list-style: none;
+    transition: 0.5s;
+}
+
+/* SERIAS */
+
+#iphone:hover {
+    box-shadow: 0px 5px 5px var(--sky-blue);
+    color: var(--sky-blue);
+    transition: 0.5s;
+}
+#seria-s {
+    padding:31.5px 35.5px;
+}
+#seria-s:hover {
+    box-shadow: 0px 5px 5px var(--hunter-green);
+    color: var(--hunter-green);
+    transition: 0.5s;
+}
+#seria-m {
+    padding:31.5px 35.5px;
+}
+#seria-m:hover {
+    box-shadow: 0px 5px 5px var(--pantone-red);
+    color: var(--pantone-red);
+    transition: 0.5s;
+}
+#seria-a {
+    padding:31.5px 35.5px;
+}
+#seria-a:hover {
+    box-shadow: 0px 5px 5px var(--selective-yellow);
+    color: var(--selective-yellow);
+    transition: 0.5s;
+}
+#redmi {
+    padding:31.5px 15px;
+}
+#redmi:hover {
+    box-shadow: 0px 5px 5px var(--cambridge-blue);
+    color: var(--cambridge-blue);
+    transition: 0.5s;
+}
