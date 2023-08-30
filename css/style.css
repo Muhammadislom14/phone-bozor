@@ -2,6 +2,7 @@
 :root {
     --black: #000;
     --prussian-blue: #023047;
+    --dark-prussian-blue: #07283a;
     --selective-yellow: #ffb703;
     --ut-orange: #fb8500;
     --blue-green: #219ebc;
@@ -43,9 +44,40 @@ body {
     padding: 10px;
 }
 .btn-new-sale {
+    border-radius: 3px;
+    border: 2px solid;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.3px;
     padding: 12.5px;
-    width: 49%;
-    margin-top: 95px;
+    width: 99%;
+}
+.btn-ut-orange {
+    background-color: rgba(0,0,0,0);
+    border-color: var(--ut-orange);
+    color: var(--ut-orange);
+    margin-top: 40px;
+    transition: 0.5s;
+}
+.btn-ut-orange:hover {
+    background-color: var(--ut-orange);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-prussion-blue {
+    background-color: var(--prussian-blue);
+    border-color: var(--prussian-blue);
+    color: var(--white);
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.btn-prussion-blue:hover {
+    background-color: var(--dark-prussian-blue);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 /* NAVIGATION */
