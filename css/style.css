@@ -298,3 +298,29 @@ a .brand-title:hover {
     display: inline;
     font-size: 18px;
 }
+
+/* NEWS  */
+.news a {
+    color: var(--black);
+    text-decoration: none;
+}
+.news-phones {
+    border: 2px solid var(--prussian-blue);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 15px 5px;
+    transition: 0.3s;
+    width: 32%;
+}
+.news-phones:hover {
+    box-shadow: 0 0 15px var(--black);
+    transition: 0.3s;
+}
+.news-phones 
+.news-phones__img {
+    border-radius: 10px;
+    width: 80%;
+}
+.i14pm {
+    width: 73.3%;
+}
