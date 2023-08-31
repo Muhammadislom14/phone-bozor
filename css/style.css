@@ -31,6 +31,9 @@ body {
 .grey-text {
     color: var(--grey);
 }
+hr {
+    width: 100%;
+}
 /* CONTAINER  */
 .container {
     margin: 0 70px;
@@ -204,4 +207,94 @@ a .brand-title:hover {
 .delivery {
     font-size: 20px;
     margin: 20px 0;
+}
+
+/* FOOTER  */
+
+.footer {
+    background-color: var(--prussian-blue);
+    height: 480px;
+}
+.telephone-number {
+    display: inline-block;
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+}
+.social-media {
+    display: inline-block;  
+}
+.social-media a {
+    text-decoration: none;
+}
+.social-media a svg {
+    fill: var(--white);
+    margin: 10px;
+    transition: 0.4s;
+}
+.social-media a svg:hover {
+    fill: var(--ut-orange);
+    transition: 0.4s;
+}
+.telephone-text {
+    float: right;
+    width: 50%;
+}
+.telephone-text table {
+    padding: 20px;
+}
+.telephone-text table:hover {
+    cursor: default;
+}
+.telephone-text th {
+    color: var(--white);
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.telephone-text td {
+    padding: 5px 20px;
+    text-align: center;
+}
+.telephone-text td a:hover {
+    color: var(--white);
+    opacity: 95%;
+    transition: 0.3s;
+}
+.telephone-text td a {
+    color: var(--grey);
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.download {
+    display: inline-block;
+    align-items: center;
+    width: 33%;
+}
+.download-pm {
+}
+.download-as {
+    float: right;
+    margin: 45px 48px 0 0;
+}
+
+.address {
+    padding: 10px;
+    width: 25%;
+}
+.address-text {
+    color: var(--grey   );
+    font-size: 20px;
+}
+
+.about-brand {
+    float: right;
+    width: 40%;
+    padding: 40px 20px; 
+}
+.about-brand__text {
+    color: var(--grey);
+    display: inline;
+    font-size: 18px;
 }
