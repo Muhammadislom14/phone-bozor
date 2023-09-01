@@ -9,6 +9,7 @@
     --sky-blue: #8ecae6;
     --light-green: #008000;
     --white: #fff;
+    --light-grey: #eee1e1;
     --grey: #808080;
     --pantone-red: #e63946;
     --hunter-green: #386641;
@@ -300,6 +301,11 @@ a .brand-title:hover {
 }
 
 /* NEWS  */
+.news__title {
+    font-size: 45px;
+    padding: 20px;
+    text-align: center;
+}
 .news a {
     color: var(--black);
     text-decoration: none;
@@ -312,15 +318,75 @@ a .brand-title:hover {
     transition: 0.3s;
     width: 32%;
 }
+.news-phones__title {
+    padding: 15px;
+}
+.news-phones__text {
+    color: var(--grey);
+    padding: 15px;
+}
 .news-phones:hover {
     box-shadow: 0 0 15px var(--black);
     transition: 0.3s;
 }
-.news-phones 
+
 .news-phones__img {
     border-radius: 10px;
     width: 80%;
+    margin:auto;
 }
 .i14pm {
     width: 73.3%;
+}
+
+/* ACCESSORIES */
+
+.accessories__title {
+    font-size: 45px;
+    padding: 20px;
+    text-align: center;
+}
+
+.accessorie__img {
+    display: inline-block;
+    width: 70%;
+    height: 70%;
+    margin: 0 30px;
+}
+.accessories a {
+    border: 2px solid var(--prussian-blue);
+    border-radius: 10px;
+    color: var(--black);
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    width: 18%;
+    transition: 0.3s;
+}
+.accessories a:hover {
+    box-shadow: 0 0 15px var(--black);
+    transition: 0.3s;
+}
+.bigger__img {
+    margin: 0 50px;
+    width: 45%;
+}
+
+.arrow-link {
+    align-items: center;
+    float: right;
+    position: relative;
+    bottom: 180px;
+    left: 30px;
+}
+.arrow-link svg:hover {
+    box-shadow: 0 0 15px var(--black);
+    transition: 0.3s;
+}
+.arrow-link svg {
+    background-color: var(--light-grey);
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.3s;
 }
