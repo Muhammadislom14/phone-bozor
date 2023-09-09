@@ -24,7 +24,8 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient( to left, var(--white) 60%, var(--prussian-blue));
 }
 .free {
     color: var(--light-green);
@@ -309,6 +310,7 @@ a .brand-title:hover {
 
 /* NEWS  */
 .news {
+    text-decoration: none;
     margin-top: 90px;
 }
 .news__title {
@@ -317,15 +319,18 @@ a .brand-title:hover {
     text-align: center;
 }
 .news a {
+    background-color: var(--white);
     color: var(--black);
     text-decoration: none;
 }
 .news-phones {
+    background-color: var(--white);
     border: 2px solid var(--prussian-blue);
     border-radius: 10px;
     display: inline-block;
-    margin: 15px 5px;
+    margin: 15px 0;
     transition: 0.3s;
+    text-decoration: none;
     width: 32%;
 }
 .news-phones__title {
@@ -350,6 +355,9 @@ a .brand-title:hover {
 }
 
 /* ACCESSORIES */
+.accessorie {
+    background-color: var(--white);
+}
 
 .accessories__title {
     color: var(--black);    
@@ -379,6 +387,7 @@ a .brand-title:hover {
     margin: 0 30px;
 }
 .accessories .accessories__link {
+    background-color: var(--white);
     border: 2px solid var(--prussian-blue);
     border-radius: 10px;
     color: var(--black);
@@ -395,10 +404,80 @@ a .brand-title:hover {
 }
 .bigger__img {
     margin: 0 50px;
-    width: 45%;
+    width: 45.5%;
 }
 .smaller__img {
-    width: 85%;
+    width: 87.8%;
     margin: 0 20px;
 }
 
+/* SERIAS-FILES */
+
+
+.phones-body {
+    background-image: linear-gradient( to left, var(--white) 60%, var(--sky-blue));
+}
+
+.serias-section {
+    margin-top: 100px;
+}
+.serias-section__title {
+    font-size: 45px;
+    margin: 25px 0;
+    text-align: center;
+}
+.serias-of-phones {
+}
+.seria-of-phone {
+    background-color: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    margin: auto;
+    text-decoration: none;
+    width: 70%;
+}
+.seria-of-phone:not(:first-child) {
+    margin-top: 55px;
+}
+.seria-of-phone__img {
+    border-radius: 10px;
+    margin: 0 168px;
+    width: 60%;
+}
+.seria-of-phone__title {
+    color: var(--black);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.seria-of-phone__title a {
+    color: var(--black);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.seria-of-phone__title a:hover {
+    text-shadow: 2px 0px 5px var(--black);
+    transition: 0.3s;
+}
+.seria-of-phone__text {
+    font-size: 18px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.seria-of-phone:last-child {
+    margin-bottom: 60px;
+}
+
+#iphone-13 {
+    padding: 25px;
+    margin: 0 228px;
+    width: 45%;
+    height: 45%;
+}
+#iphone-11 {
+    padding: 25px;
+    margin: 0 200px;
+    width: 53%;
+    height: 53%;
+}
