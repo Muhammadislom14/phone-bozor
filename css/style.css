@@ -43,6 +43,7 @@ header {
     right: 0;
     position: fixed;
 }
+
 /* CONTAINER  */
 .container {
     margin: 0 70px;
@@ -178,7 +179,8 @@ a .brand-title:hover {
 /* NEWS-SECTION */
 
 .sale {
-    margin: 20px 0;
+    margin-top: 110px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .sale-phone:hover {
@@ -187,8 +189,9 @@ a .brand-title:hover {
     transition: 0.3s;
 }
 .sale-phone {
+    background-color: var(--white);
     border: 2px solid var(--prussian-blue);
-    border-radius: 2px;
+    border-radius: 10px;
     color: var(--black);
     padding: 15px;
     transition: 0.3s;
@@ -469,15 +472,16 @@ a .brand-title:hover {
     margin-bottom: 60px;
 }
 
-#iphone-13 {
-    padding: 25px;
-    margin: 0 228px;
-    width: 45%;
-    height: 45%;
+
+
+/* SPANS  */
+
+.iphone-seria {
+    color: var(--sky-blue);
 }
-#iphone-11 {
-    padding: 25px;
-    margin: 0 200px;
-    width: 53%;
-    height: 53%;
+.seria-s {
+    color: var(--hunter-green);
+}
+.seria-m {
+    color: var(--pantone-red);
 }
