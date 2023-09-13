@@ -25,7 +25,6 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient( to left, var(--white) 60%, var(--prussian-blue));
 }
 .free {
     color: var(--light-green);
@@ -183,11 +182,7 @@ a .brand-title:hover {
     margin-bottom: 20px;
     width: 100%;
 }
-.sale-phone:hover {
-    box-shadow: 0 0 15px var(--black);
-    cursor: pointer;
-    transition: 0.3s;
-}
+
 .sale-phone {
     background-color: var(--white);
     border: 2px solid var(--prussian-blue);
@@ -324,6 +319,7 @@ a .brand-title:hover {
 .news a {
     background-color: var(--white);
     color: var(--black);
+    margin: 0 6.5px;
     text-decoration: none;
 }
 .news-phones {
@@ -350,8 +346,9 @@ a .brand-title:hover {
 
 .news-phones__img {
     border-radius: 10px;
-    width: 80%;
-    margin:auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .i14pm {
     width: 73.3%;
@@ -417,9 +414,6 @@ a .brand-title:hover {
 /* SERIAS-FILES */
 
 
-.phones-body {
-    background-image: linear-gradient( to left, var(--white) 60%, var(--sky-blue));
-}
 
 .serias-section {
     margin-top: 100px;
@@ -444,8 +438,9 @@ a .brand-title:hover {
 }
 .seria-of-phone__img {
     border-radius: 10px;
-    margin: 0 168px;
-    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .seria-of-phone__title {
     color: var(--black);
@@ -471,7 +466,9 @@ a .brand-title:hover {
 .seria-of-phone:last-child {
     margin-bottom: 60px;
 }
-
+#no-padding-img {
+    padding: 30px;
+}
 
 
 /* SPANS  */
