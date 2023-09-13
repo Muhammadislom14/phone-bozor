@@ -196,6 +196,9 @@ a .brand-title:hover {
     width: 50%;
 }
 .phone-img img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
 }
 .phones-charasteristic {
