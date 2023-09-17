@@ -312,7 +312,8 @@ a .brand-title:hover {
 /* NEWS  */
 .news {
     text-decoration: none;
-    margin-top: 90px;
+    margin-top: 120px;
+    margin-bottom: 50px;
 }
 .news__title {
     font-size: 45px;
@@ -426,8 +427,6 @@ a .brand-title:hover {
     margin: 25px 0;
     text-align: center;
 }
-.serias-of-phones {
-}
 .seria-of-phone {
     background-color: var(--white);
     border: 2px solid var(--black);
@@ -442,6 +441,8 @@ a .brand-title:hover {
 .seria-of-phone__img {
     border-radius: 10px;
     display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
 }
