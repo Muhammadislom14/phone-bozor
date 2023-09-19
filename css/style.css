@@ -43,6 +43,8 @@ header {
     position: fixed;
 }
 
+
+
 /* CONTAINER  */
 .container {
     margin: 0 70px;
@@ -223,7 +225,6 @@ a .brand-title:hover {
 
 .footer {
     background-color: var(--prussian-blue);
-    height: 480px;
 }
 .telephone-number {
     display: inline-block;
@@ -281,8 +282,6 @@ a .brand-title:hover {
     display: inline-block;
     align-items: center;
     width: 33%;
-}
-.download-pm {
 }
 .download-as {
     float: right;
@@ -358,8 +357,6 @@ a .brand-title:hover {
     width: 73.3%;
 }
 
-/* ACCESSORIES */
-
 
 /* SERIAS-FILES */
 
@@ -434,4 +431,229 @@ a .brand-title:hover {
 }
 .seria-redmi {
     color: var(--cambridge-blue);
+}
+
+/* FOR-SCREENS */
+
+@media (max-width: 767px) {
+    /* NAVIGATION-MENU */
+    .brand-title {
+        font-size: 20px;
+        padding-top: auto;
+        padding-bottom: auto;
+        margin-left: 20px;
+    }
+    .navigation-list {
+        float: right;
+        font-size: 15px;
+        wrap: nowrap;
+        height: 100%;
+    }
+    .navigation-items {
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    .container {
+        margin: 0;
+    }
+    #iphone:hover {
+        box-shadow: none;
+    }
+    #seria-s {
+        padding: 36px 5px;
+    }
+    #seria-s:hover {
+        box-shadow: none;
+    }
+    #seria-m {
+        padding: 36px 5px;
+    }
+    #seria-m:hover {
+        
+        box-shadow: none;
+    }
+    #seria-a {
+        padding: 36px 5px;
+    }
+    #seria-a:hover {
+        
+        box-shadow: none;
+    }
+    #redmi {
+        padding: 36px 5px;
+    }
+    #redmi:hover {
+        
+        box-shadow: none;
+    }
+
+    /* HERO */
+    .news {
+        margin-top: 90px;
+    }
+    .news-phones {
+        width: 97%;
+    }
+    .news-phones__title, .news-phones__text {
+        text-align: center;
+    }
+    .seria-of-phone {
+        width: 97%;
+    }
+    .seria-of-phone__title {
+        padding: 0 5px;
+    }
+    /* FOOTER  */
+
+    .footer {
+        height: 100%;
+    }
+    .telephone-text {
+        display: none;
+    }
+    .telephone {
+        display: inline-block;
+    }
+    .telephone-number {
+        display: inline-block;
+        font-size: 20px;
+        width: auto;
+    }
+    .social-media {
+        float: right;
+    }
+    svg {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+    }
+    .download {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .download-as {
+        float: none;
+        margin: 45px 48px;
+        justify-content: center;
+    }
+    .about-brand {
+        float: none;
+        padding: 20px;
+        width: 100%;
+    }
+    .address {
+        width: 100%;
+    }
+
+}
+@media (max-width: 1024px), (min-width: 768px) {
+    /* NAVIGATION-MENU */
+    .brand-title {
+        font-size: 40px;
+        padding-top: auto;
+        padding-bottom: auto;
+        margin-left: 20px;
+    }
+    .navigation-list {
+        float: right;
+        font-size: 20px;
+        height: 100%;
+    }
+    .navigation-items {
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    .container {
+        margin: 0;
+    }
+    #iphone:hover {
+        box-shadow: none;
+    }
+    #seria-s {
+        padding: 23px 15px;
+    }
+    #seria-s:hover {
+        box-shadow: none;
+    }
+    #seria-m {
+        padding: 23px 15px;
+    }
+    #seria-m:hover {
+        
+        box-shadow: none;
+    }
+    #seria-a {
+        padding: 23px 15px;
+    }
+    #seria-a:hover {
+        
+        box-shadow: none;
+    }
+    #redmi {
+        padding: 23px 15px;
+    }
+    #redmi:hover {
+        
+        box-shadow: none;
+    }
+
+    /* HERO */
+    .news {
+        margin-top: 90px;
+    }
+    .news-phones {
+        width: 97%;
+    }
+    .news-phones__title, .news-phones__text {
+        text-align: center;
+    }
+    .seria-of-phone {
+        width: 97%;
+    }
+    .seria-of-phone__title {
+        padding: 0 5px;
+    }
+    /* FOOTER  */
+
+    .footer {
+        height: 100%;
+    }
+    .telephone-text {
+        display: none;
+    }
+    .telephone {
+        display: inline-block;
+    }
+    .telephone-number {
+        display: inline-block;
+        font-size: 30px;
+        width: auto;
+    }
+    .social-media {
+        float: right;
+    }
+    svg {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+    .download {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .download-as {
+        float: none;
+        margin: 45px 48px;
+        justify-content: center;
+    }
+    .about-brand {
+        float: none;
+        padding: 20px;
+        width: 100%;
+    }
+    .address {
+        width: 100%;
+    }   
 }
