@@ -547,7 +547,7 @@ a .brand-title:hover {
     }
 
 }
-@media (max-width: 1024px), (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     /* NAVIGATION-MENU */
     .brand-title {
         font-size: 40px;
