@@ -359,61 +359,7 @@ a .brand-title:hover {
 }
 
 /* ACCESSORIES */
-.accessorie {
-    background-color: var(--white);
-}
 
-.accessories__title {
-    color: var(--black);    
-    display: block;
-    font-size: 45px;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-.accessories__title:hover {
-    cursor: default;
-}
-.accessories__title h2 {
-    display: inline-block;  
-    font-size: 53px;
-    transition: 0.3s;
-}
-.accessories__title h2:hover {
-    cursor: pointer;
-    color: var(--prussian-blue);
-    transition: 0.5s;
-}
-.accessorie__img {
-    display: inline-block;
-    width: 70%;
-    height: 70%;
-    margin: 0 30px;
-}
-.accessories .accessories__link {
-    background-color: var(--white);
-    border: 2px solid var(--prussian-blue);
-    border-radius: 10px;
-    color: var(--black);
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
-    padding: 10px;
-    width: 18%;
-    transition: 0.3s;
-}
-.accessories .accessories__link:hover {
-    box-shadow: 0 0 15px var(--black);
-    transition: 0.3s;
-}
-.bigger__img {
-    margin: 0 50px;
-    width: 45.5%;
-}
-.smaller__img {
-    width: 87.8%;
-    margin: 0 20px;
-}
 
 /* SERIAS-FILES */
 
@@ -485,4 +431,7 @@ a .brand-title:hover {
 }
 .seria-m {
     color: var(--pantone-red);
+}
+.seria-redmi {
+    color: var(--cambridge-blue);
 }
