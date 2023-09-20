@@ -503,6 +503,11 @@ a .brand-title:hover {
         padding: 0 5px;
     }
     /* PHONE-SALE  */
+    .sale {
+        width: 98%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
     .phone-img {
         display: block;
         width: 100%;
