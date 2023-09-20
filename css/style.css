@@ -446,7 +446,6 @@ a .brand-title:hover {
     .navigation-list {
         float: right;
         font-size: 15px;
-        wrap: nowrap;
         height: 100%;
     }
     .navigation-items {
@@ -502,6 +501,15 @@ a .brand-title:hover {
     }
     .seria-of-phone__title {
         padding: 0 5px;
+    }
+    /* PHONE-SALE  */
+    .phone-img {
+        display: block;
+        width: 100%;
+    }
+    .phones-charasteristic {
+        float: none;
+        width: 100%;
     }
     /* FOOTER  */
 
